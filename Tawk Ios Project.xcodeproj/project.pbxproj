@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		C890972C27F98A7700D73853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972B27F98A7700D73853 /* AppDelegate.swift */; };
 		C890972E27F98A7700D73853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972D27F98A7700D73853 /* SceneDelegate.swift */; };
-		C890973027F98A7700D73853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972F27F98A7700D73853 /* ViewController.swift */; };
-		C890973327F98A7700D73853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C890973127F98A7700D73853 /* Main.storyboard */; };
+		C890973027F98A7700D73853 /* GitUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972F27F98A7700D73853 /* GitUserListViewController.swift */; };
 		C890973627F98A7700D73853 /* Tawk_Ios_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C890973427F98A7700D73853 /* Tawk_Ios_Project.xcdatamodeld */; };
 		C890973827F98A7B00D73853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C890973727F98A7B00D73853 /* Assets.xcassets */; };
 		C890973B27F98A7B00D73853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C890973927F98A7B00D73853 /* LaunchScreen.storyboard */; };
 		C890974627F98A7C00D73853 /* Tawk_Ios_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890974527F98A7C00D73853 /* Tawk_Ios_ProjectTests.swift */; };
 		C890975027F98A7C00D73853 /* Tawk_Ios_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890974F27F98A7C00D73853 /* Tawk_Ios_ProjectUITests.swift */; };
 		C890975227F98A7C00D73853 /* Tawk_Ios_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890975127F98A7C00D73853 /* Tawk_Ios_ProjectUITestsLaunchTests.swift */; };
+		C890975E27F98AC800D73853 /* GitUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972F27F98A7700D73853 /* GitUserListViewController.swift */; };
+		C890975F27F98AD200D73853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972D27F98A7700D73853 /* SceneDelegate.swift */; };
+		C890976027F98AD200D73853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972B27F98A7700D73853 /* AppDelegate.swift */; };
+		C890976127F98ADE00D73853 /* Tawk_Ios_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C890973427F98A7700D73853 /* Tawk_Ios_Project.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,7 @@
 		C890972827F98A7700D73853 /* Tawk Ios Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tawk Ios Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C890972B27F98A7700D73853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C890972D27F98A7700D73853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C890972F27F98A7700D73853 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C890973227F98A7700D73853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C890972F27F98A7700D73853 /* GitUserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserListViewController.swift; sourceTree = "<group>"; };
 		C890973527F98A7700D73853 /* Tawk_Ios_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tawk_Ios_Project.xcdatamodel; sourceTree = "<group>"; };
 		C890973727F98A7B00D73853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C890973A27F98A7B00D73853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,14 +103,12 @@
 		C890972A27F98A7700D73853 /* Tawk Ios Project */ = {
 			isa = PBXGroup;
 			children = (
-				C890972B27F98A7700D73853 /* AppDelegate.swift */,
-				C890972D27F98A7700D73853 /* SceneDelegate.swift */,
-				C890972F27F98A7700D73853 /* ViewController.swift */,
-				C890973127F98A7700D73853 /* Main.storyboard */,
-				C890973727F98A7B00D73853 /* Assets.xcassets */,
-				C890973927F98A7B00D73853 /* LaunchScreen.storyboard */,
-				C890973C27F98A7B00D73853 /* Info.plist */,
-				C890973427F98A7700D73853 /* Tawk_Ios_Project.xcdatamodeld */,
+				C890976627F98B4600D73853 /* AppBase */,
+				C890976827F98B7E00D73853 /* AppUtility */,
+				C890976527F98B2C00D73853 /* APIService */,
+				C890976727F98B5F00D73853 /* Plist */,
+				C890976927F98B8D00D73853 /* Resources */,
+				C890976A27F98B9A00D73853 /* Scenes */,
 			);
 			path = "Tawk Ios Project";
 			sourceTree = "<group>";
@@ -128,6 +128,79 @@
 				C890975127F98A7C00D73853 /* Tawk_Ios_ProjectUITestsLaunchTests.swift */,
 			);
 			path = "Tawk Ios ProjectUITests";
+			sourceTree = "<group>";
+		};
+		C890976227F98B1000D73853 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C890972F27F98A7700D73853 /* GitUserListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C890976327F98B1A00D73853 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C890976427F98B2100D73853 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C890976527F98B2C00D73853 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		C890976627F98B4600D73853 /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				C890972B27F98A7700D73853 /* AppDelegate.swift */,
+				C890972D27F98A7700D73853 /* SceneDelegate.swift */,
+				C890973927F98A7B00D73853 /* LaunchScreen.storyboard */,
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		C890976727F98B5F00D73853 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				C890973C27F98A7B00D73853 /* Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		C890976827F98B7E00D73853 /* AppUtility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppUtility;
+			sourceTree = "<group>";
+		};
+		C890976927F98B8D00D73853 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C890973727F98A7B00D73853 /* Assets.xcassets */,
+				C890973427F98A7700D73853 /* Tawk_Ios_Project.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C890976A27F98B9A00D73853 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C890976427F98B2100D73853 /* ViewModel */,
+				C890976327F98B1A00D73853 /* View */,
+				C890976227F98B1000D73853 /* Controller */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +309,6 @@
 			files = (
 				C890973B27F98A7B00D73853 /* LaunchScreen.storyboard in Resources */,
 				C890973827F98A7B00D73853 /* Assets.xcassets in Resources */,
-				C890973327F98A7700D73853 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C890973627F98A7700D73853 /* Tawk_Ios_Project.xcdatamodeld in Sources */,
-				C890973027F98A7700D73853 /* ViewController.swift in Sources */,
+				C890973027F98A7700D73853 /* GitUserListViewController.swift in Sources */,
 				C890972C27F98A7700D73853 /* AppDelegate.swift in Sources */,
 				C890972E27F98A7700D73853 /* SceneDelegate.swift in Sources */,
 			);
@@ -272,7 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C890976027F98AD200D73853 /* AppDelegate.swift in Sources */,
+				C890976127F98ADE00D73853 /* Tawk_Ios_Project.xcdatamodeld in Sources */,
+				C890975E27F98AC800D73853 /* GitUserListViewController.swift in Sources */,
 				C890974627F98A7C00D73853 /* Tawk_Ios_ProjectTests.swift in Sources */,
+				C890975F27F98AD200D73853 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C890973127F98A7700D73853 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C890973227F98A7700D73853 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C890973927F98A7B00D73853 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,10 +513,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MQZ43TL7MV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Tawk Ios Project/Info.plist";
+				INFOPLIST_FILE = "Tawk Ios Project/Plist/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,10 +540,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MQZ43TL7MV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Tawk Ios Project/Info.plist";
+				INFOPLIST_FILE = "Tawk Ios Project/Plist/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
