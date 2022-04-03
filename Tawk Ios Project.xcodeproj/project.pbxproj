@@ -20,6 +20,9 @@
 		C890975F27F98AD200D73853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972D27F98A7700D73853 /* SceneDelegate.swift */; };
 		C890976027F98AD200D73853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890972B27F98A7700D73853 /* AppDelegate.swift */; };
 		C890976127F98ADE00D73853 /* Tawk_Ios_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C890973427F98A7700D73853 /* Tawk_Ios_Project.xcdatamodeld */; };
+		C890976C27F98F5F00D73853 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890976B27F98F5F00D73853 /* Constant.swift */; };
+		C890976E27F98FCD00D73853 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890976D27F98FCD00D73853 /* APIService.swift */; };
+		C890977127F990C400D73853 /* GitUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C890977027F990C400D73853 /* GitUserList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		C890974B27F98A7C00D73853 /* Tawk Ios ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tawk Ios ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C890974F27F98A7C00D73853 /* Tawk_Ios_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tawk_Ios_ProjectUITests.swift; sourceTree = "<group>"; };
 		C890975127F98A7C00D73853 /* Tawk_Ios_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tawk_Ios_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C890976B27F98F5F00D73853 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C890976D27F98FCD00D73853 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		C890977027F990C400D73853 /* GitUserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUserList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,7 @@
 		C890976527F98B2C00D73853 /* APIService */ = {
 			isa = PBXGroup;
 			children = (
+				C890976D27F98FCD00D73853 /* APIService.swift */,
 			);
 			path = APIService;
 			sourceTree = "<group>";
@@ -180,6 +187,7 @@
 		C890976827F98B7E00D73853 /* AppUtility */ = {
 			isa = PBXGroup;
 			children = (
+				C890976B27F98F5F00D73853 /* Constant.swift */,
 			);
 			path = AppUtility;
 			sourceTree = "<group>";
@@ -196,11 +204,20 @@
 		C890976A27F98B9A00D73853 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				C890976F27F990AF00D73853 /* Model */,
 				C890976427F98B2100D73853 /* ViewModel */,
 				C890976327F98B1A00D73853 /* View */,
 				C890976227F98B1000D73853 /* Controller */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C890976F27F990AF00D73853 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C890977027F990C400D73853 /* GitUserList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +352,10 @@
 			files = (
 				C890973627F98A7700D73853 /* Tawk_Ios_Project.xcdatamodeld in Sources */,
 				C890973027F98A7700D73853 /* GitUserListViewController.swift in Sources */,
+				C890976C27F98F5F00D73853 /* Constant.swift in Sources */,
 				C890972C27F98A7700D73853 /* AppDelegate.swift in Sources */,
+				C890976E27F98FCD00D73853 /* APIService.swift in Sources */,
+				C890977127F990C400D73853 /* GitUserList.swift in Sources */,
 				C890972E27F98A7700D73853 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
